@@ -44,9 +44,9 @@ nav {
   height: auto;
 }
 
-.nav__brand h1 {
+.nav__brand h2 {
   color: var(--clr-blue);
-  font-size: 2.5em;
+  font-size: 2 em;
   font-weight: 800;
 }
 
@@ -98,11 +98,10 @@ nav {
 /* -- HEADER -- */
 
 header {
-  background-image: url("./assets/houses.png");
+  background-image: url("./assets/home2.jpg");
   background-position: center;
-  background-size: cover;
+  background-size: contain;
   min-height: 40vh;
-
   position: relative;
 }
 
@@ -111,9 +110,8 @@ header {
   top: 25%;
   left: 50%;
   transform: translate(-50%, -50%);
-
   color: var(--clr-white);
-  font-size: 2em;
+  font-size: 1.6em;
 
   width: 100%;
   text-align: center;
@@ -156,7 +154,7 @@ header {
   display: grid;
   gap: 10px;
   grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr));
-  margin-top: 20px;
+  margin-top: 10px;
 }
 
 .card {
